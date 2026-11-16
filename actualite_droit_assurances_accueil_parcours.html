@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Accueil — Plan du parcours et lexique général</title>
+<style>
+:root{--encre:#1F2A37;--ardoise:#3B4A5C;--accent:#4A6A8A;--clair:#EEF2F6;--trame:#D5DCE4;--fond:#F7F9FB;--texte:#2B2B2B;--gris:#5A6573;--terme:#E6EEE3}
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--texte);background:var(--fond);line-height:1.55;font-size:16px}
+header{background:var(--encre);color:#fff;padding:18px 24px}
+header .k{font-size:12px;letter-spacing:2px;text-transform:uppercase;color:#A9BCD0;font-weight:700}
+header h1{margin:4px 0 0;font-size:24px}
+main{max-width:980px;margin:0 auto;padding:20px 16px 40px}
+h2{color:var(--encre);font-size:20px;margin:30px 0 10px;border-bottom:2px solid var(--accent);padding-bottom:4px}
+h3{color:var(--accent);font-size:17px;margin:18px 0 6px}
+.box{background:#fff;border:1px solid var(--trame);border-radius:8px;padding:14px 16px;margin:12px 0}
+.consigne{background:var(--clair);border-left:4px solid var(--accent);border-radius:0}
+.barre{display:flex;gap:12px;align-items:center;flex-wrap:wrap;justify-content:space-between}
+.btn{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;border-radius:6px;padding:9px 16px;font-size:15px}
+table{border-collapse:collapse;width:100%;background:#fff;margin:8px 0}
+th{background:var(--encre);color:#fff;text-align:left;padding:8px;font-size:14px}
+td{border:1px solid var(--trame);padding:8px;vertical-align:top;font-size:15px}
+td.t{background:var(--terme);font-weight:700;width:28%;color:var(--encre)}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.carte{background:#fff;border:1px solid var(--trame);border-top:4px solid var(--accent);border-radius:0 0 8px 8px;padding:12px 14px}
+.carte h3{margin-top:0}
+ul{margin:6px 0;padding-left:22px}li{margin:4px 0}
+.aretenir{background:#fff;border:2px solid var(--accent);border-radius:8px;padding:12px 16px}
+.repli{font-size:15px}
+.imprime{display:none}
+footer{text-align:center;font-size:12px;color:var(--gris);padding:16px}
+@media(max-width:760px){.cols{grid-template-columns:1fr}}
+@media print{
+  body{background:#fff;font-size:11pt}
+  header{padding:12px 16px}
+  main{padding:8px 0}
+  .ecran{display:none!important}
+  .imprime{display:block}
+  .box,.carte,.aretenir,table,tr{break-inside:avoid}
+  h2,h3{break-after:avoid}
+  a{color:inherit;text-decoration:none}
+}
+.deja{display:inline-block;font-size:12px;font-weight:700;color:var(--gris);border:1px solid var(--trame);border-radius:10px;padding:0 7px;margin-left:6px;vertical-align:middle}
+.src{font-size:13px;color:var(--gris)}
+th.t{background:var(--terme);font-weight:700;width:28%;color:var(--encre);text-align:left;border:1px solid var(--trame);padding:8px;font-size:15px;vertical-align:top}
+a:focus-visible,.btn:focus-visible{outline:3px solid var(--encre);outline-offset:2px}
+.frise{list-style:none;padding:0;margin:12px 0;border-left:4px solid var(--accent)}
+.frise li{position:relative;padding:6px 0 10px 22px;margin:0}
+.frise li:before{content:"";position:absolute;left:-10px;top:12px;width:16px;height:16px;border-radius:50%;background:var(--accent);border:3px solid #fff}
+.frise li.attente:before{background:#fff;border:3px solid #B7791F}
+.frise .d{font-weight:700;color:var(--encre);display:inline-block;min-width:150px}
+.frise .att{color:#8A5A12;font-weight:700}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.mod{font-weight:700;color:var(--accent);white-space:nowrap}
+#filtre{width:100%;padding:9px 12px;font-size:15px;border:1px solid var(--trame);border-radius:6px;margin:6px 0}
+#filtre:focus-visible{outline:3px solid var(--encre);outline-offset:2px}
+</style>
+</head>
+<body>
+<header>
+  <div class="k">Actualité du droit des assurances · Accueil</div>
+  <h1>Plan du parcours et lexique général</h1>
+</header>
+<main>
+
+<h2>1. Les objectifs</h2>
+<ul>
+  <li>Faire le point sur les évolutions récentes de la réglementation applicable aux activités d'assurance.</li>
+  <li>Comprendre les principales décisions jurisprudentielles en droit des assurances.</li>
+  <li>Mettre en perspective ces évolutions pour adapter votre pratique professionnelle.</li>
+</ul>
+
+<h2>2. Comment se déroule le parcours</h2>
+<div class="cols">
+  <div class="carte"><h3>Chaque module</h3>
+    <ol><li>Une capsule vidéo, avec sous-titres et transcription.</li>
+        <li>Une fiche « Termes et mémo », téléchargeable en PDF.</li>
+        <li>Un entraînement ou un cas pratique.</li>
+        <li>Un questionnaire de huit questions.</li></ol>
+    <p>Chaque étape s'ouvre quand la précédente est terminée.</p></div>
+  <div class="carte"><h3>Ce qui est évalué</h3>
+    <ul><li>Les entraînements ne comptent pas dans la note ; vous disposez de trois essais.</li>
+        <li>Les cas pratiques se rédigent comme un e-mail ; votre formateur les corrige.</li>
+        <li>Chaque questionnaire de module est acquis à 70 %.</li>
+        <li>La validation des acquis clôt le parcours : un seul essai, 70 % pour la réussir.</li></ul></div>
+</div>
+
+<h2>3. Les modules</h2>
+<table>
+  <caption class="sr">Modules du parcours, activité principale et durée</caption>
+  <tr><th scope="col">Étape</th><th scope="col">Thème</th><th scope="col">Activité</th><th scope="col">Durée</th></tr>
+  <tr><th scope="row" class="t">Accueil</th><td>Présentation du parcours et lexique général</td><td>Capsule et lecture</td><td>5 min</td></tr>
+  <tr><th scope="row" class="t">Module 1</th><td>La DDA et sa réforme (RIS)</td><td>Entraînement : frise de la RIS</td><td>40 min</td></tr>
+  <tr><th scope="row" class="t">Module 2</th><td>Information et devoir de conseil</td><td>Cas pratique : étude de dossier</td><td>50 min</td></tr>
+  <tr><th scope="row" class="t">Module 3</th><td>Démarchage téléphonique : le régime opt-in</td><td>Entraînement : audit d&#x27;un script d&#x27;appel</td><td>45 min</td></tr>
+  <tr><th scope="row" class="t">Module 4</th><td>Captives, prudentiel et Cat Nat</td><td>Entraînement : frise et navette</td><td>40 min</td></tr>
+  <tr><th scope="row" class="t">Module 5</th><td>Données personnelles, transferts et IA</td><td>Entraînement : frise des transferts</td><td>35 min</td></tr>
+  <tr><th scope="row" class="t">Module 6</th><td>Aléa, exclusions et pertes d&#x27;exploitation</td><td>Cas pratique : commentaire de clause</td><td>50 min</td></tr>
+  <tr><th scope="row" class="t">Module 7</th><td>Prescription</td><td>Entraînement : calcul de délais</td><td>35 min</td></tr>
+  <tr><th scope="row" class="t">Module 8</th><td>Subrogation</td><td>Cas pratique : commentaire de quittance</td><td>30 min</td></tr>
+  <tr><th scope="row" class="t">Validation des acquis</th><td>24 questions et 2 questions ouvertes</td><td>Évaluation finale</td><td>30 min</td></tr>
+</table>
+<p class="src">Durée totale : 6 heures de travail effectif.</p>
+
+<h2>4. Le lexique général</h2>
+<p>Les 66 termes du parcours, avec le module où ils sont expliqués. Chaque module rappelle aussi les termes qu'il emploie.</p>
+<label for="filtre" class="sr">Rechercher un terme</label>
+<input id="filtre" type="search" class="ecran" placeholder="Rechercher un terme…" autocomplete="off">
+<table id="lexique">
+  <caption class="sr">Lexique général : terme, définition et module</caption>
+  <tr><th scope="col">Terme</th><th scope="col">Définition</th><th scope="col">Module</th></tr>
+  <tr><th scope="row" class="t">ACPR</th><td>Autorité de contrôle prudentiel et de résolution, adossée à la Banque de France : elle contrôle les assureurs et les intermédiaires et veille à la protection de la clientèle.</td><td class="mod">M2</td></tr>
+  <tr><th scope="row" class="t">Aléa</th><td>Incertitude sur la survenance du risque, appréciée au jour de la conclusion du contrat.</td><td class="mod">M6</td></tr>
+  <tr><th scope="row" class="t">Base légale</th><td>Fondement qui autorise un traitement : contrat, obligation légale, consentement, intérêt légitime…</td><td class="mod">M5</td></tr>
+  <tr><th scope="row" class="t">Bloctel</th><td>Liste d'opposition au démarchage téléphonique, propre au régime opt-out ; elle prend fin avec le passage à l'opt-in.</td><td class="mod">M3</td></tr>
+  <tr><th scope="row" class="t">Blâme</th><td>Sanction disciplinaire prononcée par l'ACPR, qui peut être assortie d'une sanction pécuniaire et d'une publication nominative.</td><td class="mod">M2</td></tr>
+  <tr><th scope="row" class="t">Captive de réassurance</th><td>Société de réassurance détenue par un groupe non assureur pour couvrir ses propres risques.</td><td class="mod">M4</td></tr>
+  <tr><th scope="row" class="t">Clauses contractuelles types</th><td>Contrat adopté par la Commission que l'exportateur et l'importateur signent quand le pays n'a pas de décision d'adéquation (RGPD, art. 46).</td><td class="mod">M5</td></tr>
+  <tr><th scope="row" class="t">Commission consultative Pratiques commerciales</th><td>Instance de l'ACPR qui donne un avis sur les recommandations relatives aux pratiques commerciales.</td><td class="mod">M6</td></tr>
+  <tr><th scope="row" class="t">Commission des sanctions</th><td>Formation de l'ACPR qui prononce les sanctions disciplinaires : avertissement, blâme, interdictions, sanction pécuniaire…</td><td class="mod">M2</td></tr>
+  <tr><th scope="row" class="t">Concomitance</th><td>Simultanéité entre la subrogation et le paiement.</td><td class="mod">M8</td></tr>
+  <tr><th scope="row" class="t">Consentement préalable</th><td>Accord donné avant l'appel par une manifestation de volonté libre, spécifique, éclairée, univoque et révocable. Le professionnel doit pouvoir le prouver.</td><td class="mod">M3</td></tr>
+  <tr><th scope="row" class="t">Data Privacy Framework</th><td>Cadre de transfert entre l'Union et les États-Unis, adopté le 10/07/2023, pour les entreprises américaines inscrites sur sa liste.</td><td class="mod">M5</td></tr>
+  <tr><th scope="row" class="t">DDA</th><td>Directive (UE) 2016/97 sur la distribution d'assurances, du 20 janvier 2016. Elle fixe les règles applicables à tous ceux qui distribuent de l'assurance.</td><td class="mod">M1</td></tr>
+  <tr><th scope="row" class="t">Décision d&#x27;adéquation</th><td>Décision de la Commission européenne reconnaissant qu'un pays tiers protège les données de manière équivalente (RGPD, art. 45).</td><td class="mod">M5</td></tr>
+  <tr><th scope="row" class="t">Délai minimal de 6 mois</th><td>À la fin de la médiation, le délai reprend ; il ne peut pas être inférieur à 6 mois (C. civ., art. 2238).</td><td class="mod">M7</td></tr>
+  <tr><th scope="row" class="t">Démarchage téléphonique</th><td>Appel d'un consommateur à des fins de prospection commerciale, par le professionnel lui-même ou par un tiers agissant pour son compte.</td><td class="mod">M3</td></tr>
+  <tr><th scope="row" class="t">Devoir de conseil</th><td>Obligation de préciser les exigences et besoins du client et de lui proposer un contrat cohérent avec eux, en motivant ce conseil.</td><td class="mod">M2</td></tr>
+  <tr><th scope="row" class="t">DGCCRF</th><td>Direction générale de la concurrence, de la consommation et de la répression des fraudes : elle contrôle les pratiques commerciales envers les consommateurs.</td><td class="mod">M3</td></tr>
+  <tr><th scope="row" class="t">Distributeur d&#x27;assurance</th><td>Assureur ou intermédiaire (courtier, agent général, mandataire…) qui conseille, propose ou conclut un contrat d'assurance.</td><td class="mod">M1</td></tr>
+  <tr><th scope="row" class="t">Exclusion de garantie</th><td>Clause qui retire de la garantie un risque qui en relèverait sans elle ; elle doit être formelle et limitée (C. assur., art. L. 113-1).</td><td class="mod">M6</td></tr>
+  <tr><th scope="row" class="t">Exigences et besoins</th><td>Situation, objectifs et attentes du client, recueillis avant toute proposition. Le contrat proposé doit être cohérent avec eux.</td><td class="mod">M1</td></tr>
+  <tr><th scope="row" class="t">Formelle</th><td>Rédigée en termes précis, sans besoin d'interprétation.</td><td class="mod">M6</td></tr>
+  <tr><th scope="row" class="t">Gouvernance produit (POG)</th><td>Obligation de concevoir un produit pour un marché cible défini, puis d'en surveiller la distribution.</td><td class="mod">M1</td></tr>
+  <tr><th scope="row" class="t">Guide RGPD de l&#x27;assurance</th><td>Guide de la profession, élaboré avec la CNIL, qui actualise le pack de conformité assurance de 2014.</td><td class="mod">M5</td></tr>
+  <tr><th scope="row" class="t">IBIP</th><td>Produit d'investissement fondé sur l'assurance, par exemple un contrat d'assurance vie en unités de compte. Il obéit à des règles renforcées.</td><td class="mod">M1</td></tr>
+  <tr><th scope="row" class="t">Inopposabilité</th><td>Impossibilité pour l'assureur d'invoquer la biennale si le contrat ne rappelle pas les mentions exigées (C. assur., art. R. 112-1).</td><td class="mod">M7</td></tr>
+  <tr><th scope="row" class="t">Interruption</th><td>Événement qui efface le délai écoulé et fait courir un nouveau délai complet.</td><td class="mod">M7</td></tr>
+  <tr><th scope="row" class="t">IPID</th><td>Document d'information normalisé sur le produit d'assurance non-vie, remis avant la souscription.</td><td class="mod">M1</td></tr>
+  <tr><th scope="row" class="t">IRRD</th><td>Directive (UE) 2025/1 sur le redressement et la résolution des entreprises d'assurance.</td><td class="mod">M4</td></tr>
+  <tr><th scope="row" class="t">Limitée</th><td>Ne vidant pas la garantie de sa substance.</td><td class="mod">M6</td></tr>
+  <tr><th scope="row" class="t">Médiateur de l&#x27;assurance</th><td>Médiateur de la consommation du secteur. Sa saisine suspend la prescription quand l'assureur adhère à sa charte.</td><td class="mod">M7</td></tr>
+  <tr><th scope="row" class="t">Navette parlementaire</th><td>Allers-retours d'un texte entre l'Assemblée nationale et le Sénat jusqu'à son adoption dans les mêmes termes.</td><td class="mod">M4</td></tr>
+  <tr><th scope="row" class="t">Offre groupée</th><td>Ensemble de produits ou de services vendus ensemble, par exemple un compte bancaire et une assurance incluse. L'inclusion ne dispense ni de l'information ni du conseil.</td><td class="mod">M2</td></tr>
+  <tr><th scope="row" class="t">Opt-in</th><td>Régime en vigueur depuis le 11 août 2026 : l'appel est interdit sans consentement préalable du consommateur.</td><td class="mod">M3</td></tr>
+  <tr><th scope="row" class="t">Opt-out</th><td>Régime en vigueur jusqu'au 10 août 2026 : le consommateur pouvait être appelé, sauf s'il s'y était opposé en s'inscrivant sur Bloctel.</td><td class="mod">M3</td></tr>
+  <tr><th scope="row" class="t">ORIAS</th><td>Registre unique des intermédiaires en assurance, banque et finance. L'immatriculation conditionne l'exercice de l'activité et le droit à commission.</td><td class="mod">M2</td></tr>
+  <tr><th scope="row" class="t">Pertes d&#x27;exploitation</th><td>Perte de marge brute subie par une entreprise à la suite d'un événement garanti.</td><td class="mod">M6</td></tr>
+  <tr><th scope="row" class="t">Point de départ</th><td>Événement qui fait courir le délai : en principe, l'événement qui donne naissance à l'action (le sinistre) ; en cas de recours d'un tiers, l'action en justice de ce tiers ou son indemnisation par l'assuré.</td><td class="mod">M7</td></tr>
+  <tr><th scope="row" class="t">Prescription biennale</th><td>Délai de 2 ans pour agir, applicable aux actions dérivant d'un contrat d'assurance (C. assur., art. L. 114-1).</td><td class="mod">M7</td></tr>
+  <tr><th scope="row" class="t">Prescription de droit commun</th><td>Délai de 5 ans (C. civ., art. 2224) des actions qui ne dérivent pas du contrat d'assurance, par exemple une action en nullité pour dol. Il ne remplace pas la biennale quand celle-ci est inopposable.</td><td class="mod">M7</td></tr>
+  <tr><th scope="row" class="t">Principe indemnitaire</th><td>L'indemnité ne peut dépasser la valeur de la chose assurée au jour du sinistre.</td><td class="mod">M4</td></tr>
+  <tr><th scope="row" class="t">Provision pour résilience</th><td>Provision déductible fiscalement que peut constituer une captive de réassurance (CGI, art. 39 quinquies G, II).</td><td class="mod">M4</td></tr>
+  <tr><th scope="row" class="t">QPC</th><td>Question prioritaire de constitutionnalité : contrôle, par le Conseil constitutionnel, d'une loi déjà en vigueur.</td><td class="mod">M3</td></tr>
+  <tr><th scope="row" class="t">Quittance subrogative</th><td>Document par lequel l'assuré reconnaît le paiement et subroge l'assureur ; elle ne prouve pas à elle seule la concomitance.</td><td class="mod">M8</td></tr>
+  <tr><th scope="row" class="t">Recommandation ACPR</th><td>Texte qui expose les bonnes pratiques attendues ; l'ACPR en contrôle l'application. Ici : recommandation 2024-R-03 du 21 novembre 2024.</td><td class="mod">M2</td></tr>
+  <tr><th scope="row" class="t">Recommandation personnalisée</th><td>Niveau de conseil renforcé : le distributeur explique pourquoi un contrat correspond le mieux aux exigences et besoins du client.</td><td class="mod">M2</td></tr>
+  <tr><th scope="row" class="t">Régime Cat Nat</th><td>Régime d'indemnisation des catastrophes naturelles, déclenché par arrêté interministériel.</td><td class="mod">M4</td></tr>
+  <tr><th scope="row" class="t">Réparation résiliente</th><td>Réparation qui réduit la vulnérabilité du bien.</td><td class="mod">M4</td></tr>
+  <tr><th scope="row" class="t">Responsable de traitement / sous-traitant</th><td>Le premier décide des finalités et des moyens du traitement ; le second traite les données pour son compte.</td><td class="mod">M5</td></tr>
+  <tr><th scope="row" class="t">Rétrocession (inducement)</th><td>Rémunération versée au distributeur par un tiers, le plus souvent l'assureur, à l'occasion de la distribution d'un produit.</td><td class="mod">M1</td></tr>
+  <tr><th scope="row" class="t">Revirement de jurisprudence</th><td>Abandon par la Cour de cassation d'une solution qu'elle retenait jusque-là.</td><td class="mod">M6</td></tr>
+  <tr><th scope="row" class="t">RGPD</th><td>Règlement (UE) 2016/679 sur la protection des données personnelles, applicable depuis le 25/05/2018.</td><td class="mod">M5</td></tr>
+  <tr><th scope="row" class="t">RIS</th><td>Retail Investment Strategy : paquet de textes européens destiné à mieux protéger l'investisseur de détail. La directive qui devait modifier la DDA a été rejetée par le Parlement européen ; seul le règlement sur le document d'informations clés (PRIIPs) poursuit son parcours.</td><td class="mod">M1</td></tr>
+  <tr><th scope="row" class="t">Risque putatif</th><td>Risque déjà réalisé mais ignoré des parties au jour du contrat.</td><td class="mod">M6</td></tr>
+  <tr><th scope="row" class="t">Solvabilité II</th><td>Cadre prudentiel européen des assureurs : fonds propres, gouvernance, information. Révisé par la directive (UE) 2025/2.</td><td class="mod">M4</td></tr>
+  <tr><th scope="row" class="t">Subrogation</th><td>Transmission, à celui qui paie, des droits du créancier qu'il a désintéressé.</td><td class="mod">M8</td></tr>
+  <tr><th scope="row" class="t">Subrogation conventionnelle</th><td>Subrogation consentie expressément par l'assuré, au plus tard au moment du paiement (C. civ., art. 1346-1).</td><td class="mod">M8</td></tr>
+  <tr><th scope="row" class="t">Subrogation légale</th><td>Subrogation de plein droit de l'assureur qui a payé l'indemnité due au titre du contrat (C. assur., art. L. 121-12).</td><td class="mod">M8</td></tr>
+  <tr><th scope="row" class="t">Subrogé / subrogeant</th><td>Le subrogé (l'assureur) reçoit les droits ; le subrogeant (l'assuré) les transmet.</td><td class="mod">M8</td></tr>
+  <tr><th scope="row" class="t">Surprime Cat Nat</th><td>Contribution additionnelle prélevée sur les contrats de dommages pour financer le régime.</td><td class="mod">M4</td></tr>
+  <tr><th scope="row" class="t">Suspension</th><td>Arrêt temporaire du délai, qui reprend ensuite pour la durée restante.</td><td class="mod">M7</td></tr>
+  <tr><th scope="row" class="t">Système d&#x27;IA à haut risque</th><td>Usage de l'IA soumis aux obligations les plus lourdes de l'IA Act ; en assurance, la tarification et l'évaluation des risques en vie et santé.</td><td class="mod">M5</td></tr>
+  <tr><th scope="row" class="t">Transfert hors de l&#x27;Union</th><td>Envoi de données personnelles, ou accès à ces données, depuis un pays qui n'est pas membre de l'Espace économique européen.</td><td class="mod">M5</td></tr>
+  <tr><th scope="row" class="t">Transposition</th><td>Intégration d'une directive européenne dans le droit national, dans le délai fixé par la directive.</td><td class="mod">M1</td></tr>
+  <tr><th scope="row" class="t">Value for money</th><td>Exigence selon laquelle les coûts d'un produit doivent être justifiés et proportionnés aux bénéfices qu'il apporte au client.</td><td class="mod">M1</td></tr>
+  <tr><th scope="row" class="t">Vente en deux temps</th><td>Règle propre à l'assurance : après un appel de prospection, le contrat ne peut être signé qu'à l'issue d'un délai d'au moins 24 heures, par le client lui-même.</td><td class="mod">M3</td></tr>
+</table>
+<p id="aucun" class="src" hidden>Aucun terme ne correspond à votre recherche.</p>
+
+</main>
+<footer>Actualité du droit des assurances · Accueil</footer>
+<script>
+(function(){var f=document.getElementById('filtre'),t=document.getElementById('lexique'),a=document.getElementById('aucun');
+function n(s){return s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'');}
+f.addEventListener('input',function(){var q=n(f.value.trim()),k=0;
+ Array.prototype.forEach.call(t.querySelectorAll('tr'),function(r,i){if(!i)return;var ok=!q||n(r.textContent).indexOf(q)>-1;r.hidden=!ok;if(ok)k++;});
+ a.hidden=k>0;});})();
+</script>
+</body>
+</html>
